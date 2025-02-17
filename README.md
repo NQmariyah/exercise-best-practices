@@ -1,1 +1,1 @@
-# exercise-best-practices
+Repository ini berisi sekumpulan kode program yang ditujukan untuk Latihan Best Practices and Standarization pada program Python matakuliah Pemrograman Jaringan 1, Teknologi Rekayasa Internet, Politeknik Negeri Lampung tahun ajaran 2024/2025.
