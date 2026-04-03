@@ -1,0 +1,29 @@
+Competition: Mini Connect 4
+
+Deskripsi Kegiatan
+Pada pertemuan ini, buat kelompok berisi max 5 orang, dengan susunan yang berbeda dengan minggu sebelumnya (tidak ada 2 orang yang satu kelompok untuk keduakalinya).
+Selanjutnya, setiap kelompok akan mengembangkan agen permainan (game-playing agent) untuk berkompetisi dalam permainan Connect 4 versi sederhana.
+
+Tujuan kegiatan ini adalah memahami bagaimana sebuah agen mengambil keputusan dalam permainan yang bersifat kompetitif.
+
+Aturan Permainan:
+- board berukuran 4x4
+- dua pemain bergantian menjatuhkan token ke dalam kolom
+- token akan mengisi posisi terbawah yang tersedia
+- pemain menang jika berhasil membuat 4 token sejajar (horizontal, vertical, diagonal)
+
+Secara berkelompok, lakukan:
+1. Memahami permainan, termasuk bagaimana merepresentasikan board, aturan Langkah yang valid, dan kondisi menang.
+2. Mengembangkan agen permainan, program harus mampu menerima kondisi board yang bisa jadi berubah dan menentukan Langkah berikutnya apa.
+3. Menentukan strategi, pilih pendekatan untuku mengevaluasi kondisi permainan dan cara memilih Langkah terbaik.
+4. Menyiapkan penjelasan strategi. setiap kelompok harus mampu menjelaskan bagaimana agen mengambil keputusan dan alasan di balik strategi yang digunakan.
+5. Pelaksanaan di kelas:
+   - agen akan dipertandingkan secara langsung antar kelompok
+   - pertandingan dilakukan dalam beberapa ronde
+   - aturan tambahan dapat diberikan selama kompetisi berlangsung
+
+Struktur Program
+Program terdiri dari 3 file Utama.
+1. main.py (GAME ENGINE): File ini berisi seluruh logika permainan. Tidak perlu mengubah apapun di dalam file ini.
+2. agent.py: Ini adalah bagian Utama yang harus kalian implementasi sesuai dengan rancangan agen yang akan memainkan permainan.
+3. agent_dummy.py (AGEN PEMBANDING): diimplementasikan sebagai agen sederhana yang memilih Langkah secara acak. Agent Dummy bertujuan sebagai lawan awal untuk menguji agent Utama. Silakan modifikasi implementasi agent_dummy untuk melakukan eksperimen dan variasi terhadap lawan.
